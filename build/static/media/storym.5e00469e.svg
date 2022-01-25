@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="b9bf6650-716f-405e-b16b-128ee0039b2f"
+   data-name="Layer 1"
+   width="1036"
+   height="569.97133"
+   viewBox="0 0 1036 569.97133"
+   version="1.1"
+   sodipodi:docname="storym.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata51">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs49">
+    <rect
+       x="213.762"
+       y="85.504798"
+       width="221.71593"
+       height="189.90019"
+       id="rect55" />
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     id="namedview47"
+     showgrid="false"
+     inkscape:zoom="1.0057915"
+     inkscape:cx="485.54099"
+     inkscape:cy="324.75533"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="b9bf6650-716f-405e-b16b-128ee0039b2f"
+     inkscape:document-rotation="0" />
+  <title
+     id="title2">Books</title>
+  <path
+     d="m 902.87969,162.28857 c 0,73.6787 59.73391,133.41266 133.41271,133.41266 V 28.875895 c -73.6788,0 -133.41271,59.733915 -133.41271,133.412675 z"
+     fill="#3f3d56"
+     id="path6"
+     style="stroke-width:0.695241" />
+  <path
+     d="m 339.4804,191.82842 a 9.0011998,9.0011998 0 1 1 9.00119,-9.0012 9.0115163,9.0115163 0 0 1 -9.00119,9.0012 z m 0,-16.5022 a 7.5009965,7.5009965 0 1 0 7.50099,7.501 7.5093563,7.5093563 0 0 0 -7.50099,-7.501 z"
+     fill="#3f3d56"
+     id="path8"
+     style="stroke-width:0.656699" />
+  <path
+     d="M 387.94276,282.15603 H 373.13491 V 267.3482 h 14.80785 z m -13.66877,-1.13907 h 12.52971 v -12.52968 h -12.52973 z"
+     fill="#3f3d56"
+     id="path10"
+     style="stroke-width:0.656699" />
+  <path
+     d="m 387.09035,411.88512 -10.10016,-10.82859 10.82859,-10.10017 10.10017,10.82861 z m -8.49025,-10.77257 8.54628,9.16268 9.16265,-8.54629 -8.54628,-9.16266 z"
+     fill="#3f3d56"
+     id="path12"
+     style="stroke-width:0.656699" />
+  <circle
+     cx="208.95024"
+     cy="184.57898"
+     r="104.26386"
+     fill="#dc5c01"
+     opacity="0.3"
+     id="circle18"
+     style="stroke-width:0.656699" />
+  <polygon
+     points="614.268,276.156 459.223,85.873 353.51,214.137 509.965,398.782 "
+     fill="#dc5c01"
+     id="polygon20"
+     transform="matrix(0.65669928,0,0,0.65669928,-135.43935,-4.4577249)" />
+  <polygon
+     points="614.268,276.156 459.223,85.873 353.51,214.137 509.965,398.782 "
+     opacity="0.1"
+     id="polygon22"
+     transform="matrix(0.65669928,0,0,0.65669928,-135.43935,-4.4577249)" />
+  <path
+     d="m 99.487373,137.09183 v 0 a 34.891326,34.891326 0 0 1 5.660187,-7.55758 l 63.7613,-64.640755 c 0,0 22.21486,-3.702471 26.84297,7.404941 l -81.45452,66.644634 z"
+     fill="#f2f2f2"
+     id="path24"
+     style="stroke-width:0.656699" />
+  <path
+     d="m 96.247703,135.70339 94.413217,144.39668 c 0,0 9.25617,6.47935 18.51239,2.77686 L 305.90058,217.62072 203.15677,62.116628 110.59482,134.31498 Z"
+     fill="#dc5c01"
+     id="path26"
+     style="stroke-width:0.656699" />
+  <rect
+     x="33.254261"
+     y="180.5591"
+     width="72.954025"
+     height="1.500072"
+     transform="rotate(-35.7003)"
+     fill="#3f3d56"
+     id="rect28"
+     style="stroke-width:0.656699" />
+  <rect
+     x="29.274744"
+     y="191.99295"
+     width="1.500177"
+     height="140.94087"
+     transform="rotate(-33.48132)"
+     fill="#3f3d56"
+     id="rect30"
+     style="stroke-width:0.656699" />
+  <rect
+     x="18.621084"
+     y="341.7468"
+     width="78.125229"
+     height="1.5005579"
+     transform="rotate(-36.34406)"
+     fill="#3f3d56"
+     id="rect32"
+     style="stroke-width:0.656699" />
+  <rect
+     x="115.47458"
+     y="187.02238"
+     width="1.4996647"
+     height="140.96762"
+     transform="rotate(-34.83794)"
+     fill="#3f3d56"
+     id="rect34"
+     style="stroke-width:0.656699" />
+  <rect
+     x="-11.552875"
+     y="167.47334"
+     width="99.415375"
+     height="0.92509228"
+     transform="rotate(-42.54484)"
+     fill="#3f3d56"
+     id="rect36"
+     style="stroke-width:0.656699" />
+  <rect
+     x="-6.8389444"
+     y="170.21558"
+     width="102.11143"
+     height="0.92603141"
+     transform="rotate(-41.43847)"
+     fill="#3f3d56"
+     id="rect38"
+     style="stroke-width:0.656699" />
+  <rect
+     x="-0.57244778"
+     y="171.54468"
+     width="103.45163"
+     height="0.9261167"
+     transform="rotate(-39.81273)"
+     fill="#3f3d56"
+     id="rect40"
+     style="stroke-width:0.656699" />
+  <text
+     xml:space="preserve"
+     id="text53"
+     style="font-style:normal;font-weight:normal;font-size:48px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect55);fill:#333333;fill-opacity:1;stroke:none;"
+     transform="translate(-68.60269,238.61803)"><tspan
+       x="213.76172"
+       y="129.29576"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:48px;font-family:lora;-inkscape-font-specification:'lora Bold';fill:#333333">Our
+</tspan></tspan><tspan
+       x="213.76172"
+       y="189.36263"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:48px;font-family:lora;-inkscape-font-specification:'lora Bold';fill:#333333">Story</tspan></tspan></text>
+</svg>

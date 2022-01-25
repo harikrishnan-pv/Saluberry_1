@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="e1d6a9e2-5d0a-4358-9625-bb79dd06fec3"
+   data-name="Layer 1"
+   width="996"
+   height="674.00456"
+   viewBox="0 0 996 674.00456"
+   version="1.1"
+   sodipodi:docname="1mb.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata69">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>solution_mindset</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs67" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     id="namedview65"
+     showgrid="false"
+     inkscape:zoom="1.0461847"
+     inkscape:cx="498"
+     inkscape:cy="345.12443"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="e1d6a9e2-5d0a-4358-9625-bb79dd06fec3"
+     inkscape:document-rotation="0" />
+  <title
+     id="title2">solution_mindset</title>
+  <circle
+     cx="81.378502"
+     cy="322.11267"
+     r="72.528229"
+     fill="#f2f2f2"
+     id="circle4"
+     style="stroke-width:0.522068" />
+  <path
+     d="m 169.11424,354.28258 a 153.24564,153.24564 0 1 1 108.36052,-44.88462 152.24212,152.24212 0 0 1 -108.36052,44.88462 z m 0,-305.320742 c -83.854498,0 -152.075332,68.220562 -152.075332,152.075312 0,83.85478 68.220824,152.07561 152.075332,152.07561 83.85449,0 152.07532,-68.22083 152.07532,-152.07562 0,-83.85478 -68.22084,-152.075302 -152.07532,-152.075302 z"
+     fill="#2f2e41"
+     id="path6"
+     style="stroke-width:0.522068" />
+  <polygon
+     points="162.271,222.003 305.334,120.05 306.913,121.037 454.975,213.781 459.908,386.443 459.875,386.46 315.201,467.019 156.779,387.808 154.049,386.443 "
+     fill="#ef7924"
+     id="polygon8"
+     transform="matrix(0.52206888,0,0,0.52206888,8.8502377,47.792028)" />
+  <polygon
+     points="156.779,387.808 297.112,289.424 459.875,386.46 315.201,467.019 "
+     opacity="0.3"
+     id="polygon10"
+     transform="matrix(0.52206888,0,0,0.52206888,8.8502377,47.792028)" />
+  <polygon
+     points="306.913,121.037 454.975,213.781 459.908,386.443 297.112,289.424 "
+     opacity="0.1"
+     id="polygon12"
+     transform="matrix(0.52206888,0,0,0.52206888,8.8502377,47.792028)" />
+  <polygon
+     points="304.021,169.5 456.834,265.309 456.094,266.49 304.066,171.173 160.165,272.745 159.361,271.607 "
+     fill="#f2f2f2"
+     id="polygon14"
+     transform="matrix(0.52206888,0,0,0.52206888,8.8502377,47.792028)" />
+  <polygon
+     points="157.361,328.61 156.579,327.458 300.505,229.743 300.882,229.957 456.963,318.417 456.275,319.629 300.571,231.382 "
+     fill="#f2f2f2"
+     id="polygon16"
+     transform="matrix(0.52206888,0,0,0.52206888,8.8502377,47.792028)" />
+  <polygon
+     points="356.595,324.9 356.595,152.594 357.988,152.594 357.988,325.676 212.276,415.965 211.542,414.781 "
+     fill="#f2f2f2"
+     id="polygon18"
+     transform="matrix(0.52206888,0,0,0.52206888,8.8502377,47.792028)" />
+  <polygon
+     points="408.138,355.645 408.138,184.879 409.531,184.879 409.531,356.416 269.209,444.428 268.469,443.248 "
+     fill="#f2f2f2"
+     id="polygon20"
+     transform="matrix(0.52206888,0,0,0.52206888,8.8502377,47.792028)" />
+  <polygon
+     points="407.612,415.982 245.176,325.73 245.199,325.296 253.75,156.281 255.141,156.352 246.612,324.933 408.289,414.764 "
+     fill="#f2f2f2"
+     id="polygon22"
+     transform="matrix(0.52206888,0,0,0.52206888,8.8502377,47.792028)" />
+  <polygon
+     points="356.507,444.455 195.895,360.288 195.92,359.841 205.388,190.742 206.779,190.82 197.337,359.471 357.154,443.221 "
+     fill="#f2f2f2"
+     id="polygon24"
+     transform="matrix(0.52206888,0,0,0.52206888,8.8502377,47.792028)" />
+  <circle
+     cx="263.284"
+     cy="81.131767"
+     r="29.245258"
+     fill="#3f3d56"
+     id="circle26"
+     style="stroke-width:0.522068" />
+</svg>
