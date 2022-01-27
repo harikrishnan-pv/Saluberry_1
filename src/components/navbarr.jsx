@@ -5,10 +5,12 @@ import { Fragment, useState } from "react";
 
 const navigation = [
   { name: "Home", href: "/", current: true },
-  { name: "New", href: "/new", current: false },
-  { name: "Specials", href: "/spl", current: false },
-  { name: "Best Selling", href: "/best", current: false },
+  { name: "Best Selling", href: "/best_selling", current: false },
+  { name: "Most Popular", href: "/most_popular", current: false },
+  { name: "Recent Arrivals", href: "/recent_arrival", current: false },
+  { name: "About", href: "/about", current: false },
 ];
+
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
