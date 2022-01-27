@@ -48,7 +48,7 @@ export default function Example() {
 
   return (
     <div>
-      <Disclosure as="nav" className="bg-green-600 z-10">
+      <Disclosure as="nav" className="bg-white shadow-xl py-5 z-10">
         {({ open }) => (
           <>
             <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
@@ -66,9 +66,9 @@ export default function Example() {
                 </div>
                 <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                   <div className="flex-shrink-0 text-xl text-white flex items-center">
-                    Saluberry
+                    <img src="logo.png" alt="" />
                   </div>
-                  <div className="hidden sm:block sm:ml-6">
+                  <div className="hidden sm:block md:mt-7 sm:ml-6">
                     <div className="flex space-x-4">
                       {navigation.map((item) => (
                         <a
@@ -76,8 +76,8 @@ export default function Example() {
                           href={item.href}
                           className={classNames(
                             item.current
-                              ? "bg-green-900 text-white"
-                              : "text-gray-300 hover:bg-green-700 hover:text-white",
+                              ? "bg-pink-900 text-white"
+                              : "text-gray-600 hover:bg-pink-700 hover:text-white",
                             "px-3 py-2 rounded-md text-sm font-medium"
                           )}
                           aria-current={item.current ? "page" : undefined}
@@ -85,11 +85,7 @@ export default function Example() {
                           {item.name}
                         </a>
                       ))}
-                    </div>
-                  </div>
-                </div>
-                <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                  <label class="relative block">
+                       <label class="relative block">
                     <span class="sr-only">Search</span>
                     <span class="absolute inset-y-0 left-0 flex items-center pl-2">
                       <svg
@@ -104,11 +100,17 @@ export default function Example() {
                       name="search"
                     />
                   </label>
+                    </div>
+                    
+                  </div>
+                </div>
+                <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                 
 
                   {/* Profile dropdown */}
                   <Menu as="div" className="ml-3 relative">
                     <div>
-                      <Menu.Button className="bg-green-800 flex text-white px-3 py-1 text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-green-900 focus:ring-white">
+                      <Menu.Button className="bg-pink-700 flex text-white px-3 py-1 text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-pink-900 focus:ring-white">
                         Sign In
                       </Menu.Button>
                     </div>
@@ -161,9 +163,9 @@ export default function Example() {
                       </Menu.Items>
                     </Transition>
                   </Menu>
-                  <p className="p-2 m-2 rounded-xl hover:bg-green-700">
+                  <p className="p-2 m-2 rounded-xl hover:bg-pink-700 hover:text-white">
                     <svg
-                      className="w-6  text-white h-6 "
+                      className="w-6  text-black-600 h-6 "
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -269,7 +271,7 @@ export default function Example() {
                                     <div className="flex">
                                       <button
                                         type="button"
-                                        className="font-medium text-green-600 hover:text-green-500"
+                                        className="font-medium text-pink-600 hover:text-pink-500"
                                       >
                                         Remove
                                       </button>
@@ -294,7 +296,7 @@ export default function Example() {
                       <div className="mt-6">
                         <p
 
-                          className="flex justify-center items-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-green-600 hover:bg-green-700"
+                          className="flex justify-center items-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-pink-600 hover:bg-pink-700"
                         >
                           Checkout
                         </p>
@@ -304,7 +306,7 @@ export default function Example() {
                           or{" "}
                           <button
                             type="button"
-                            className="text-green-600 font-medium hover:text-green-500"
+                            className="text-pink-600 font-medium hover:text-pink-500"
                             onClick={() => setOpen(false)}
                           >
                             Continue Shopping
