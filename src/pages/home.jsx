@@ -7,7 +7,7 @@ const products = [
     name: "lorem ipsum",
     href: "#",
     imageSrc:
-      "http://www.saluberry.com/wp-content/uploads/2021/11/Virbac-dental-kit-402x402-1-300x300.jpg",
+      "imgs/1.jpg",
     imageAlt: "Front of men's lorem ipsum in black.",
     price: "$35",
     color: "Black",
@@ -17,7 +17,7 @@ const products = [
     name: "lorem ipsum",
     href: "#",
     imageSrc:
-      "http://www.saluberry.com/wp-content/uploads/2021/11/41SU4efKSWL-300x300.jpg",
+      "imgs/2.jpg",
     imageAlt: "Front of men's lorem ipsum in black.",
     price: "$35",
     color: "Black",
@@ -27,7 +27,7 @@ const products = [
     name: "lorem ipsum",
     href: "#",
     imageSrc:
-      "http://www.saluberry.com/wp-content/uploads/2021/11/91zxolULbmL._AC_SL1500_-300x300.jpg",
+    "imgs/2.jpg",
     imageAlt: "Front of men's lorem ipsum in black.",
     price: "$35",
     color: "Black",
@@ -37,7 +37,7 @@ const products = [
     name: "lorem ipsum",
     href: "#",
     imageSrc:
-      "http://www.saluberry.com/wp-content/uploads/2021/11/waterpik_water_flosser_and_sonic_tooth_brush_wp-861w_-300x300.jpg",
+    "imgs/1.jpg",
     imageAlt: "Front of men's lorem ipsum in black.",
     price: "$35",
     color: "Black",
@@ -47,7 +47,7 @@ const products = [
     name: "lorem ipsum",
     href: "#",
     imageSrc:
-      "http://www.saluberry.com/wp-content/uploads/2021/11/dentalcare1-300x300.jpg",
+    "imgs/2.jpg",
     imageAlt: "Front of men's lorem ipsum in black.",
     price: "$35",
     color: "Black",
@@ -58,7 +58,7 @@ const products = [
     name: "lorem ipsum",
     href: "#",
     imageSrc:
-      "http://www.saluberry.com/wp-content/uploads/2021/11/white-300x300.jpeg",
+      "imgs/1.jpg",
     imageAlt: "Front of men's lorem ipsum in black.",
     price: "$35",
     color: "Black",
@@ -68,7 +68,7 @@ const products = [
     name: "lorem ipsum",
     href: "#",
     imageSrc:
-      "http://www.saluberry.com/wp-content/uploads/2021/11/hello11-300x300.jpg",
+    "imgs/2.jpg",
     imageAlt: "Front of men's lorem ipsum in black.",
     price: "$35",
     color: "Black",
@@ -78,7 +78,7 @@ const products = [
     name: "lorem ipsum",
     href: "#",
     imageSrc:
-      "http://www.saluberry.com/wp-content/uploads/2021/11/dental-implant-cost-300x300.jpg",
+    "imgs/1.jpg",
     imageAlt: "Front of men's lorem ipsum in black.",
     price: "$35",
     color: "Black",
@@ -88,25 +88,29 @@ const products = [
 const categories = [
   {
     description: 'Accessories',
-    imageSrc: 'http://www.saluberry.com/wp-content/uploads/2021/11/Attachment_1636711988-300x300.jpg',
+    imageSrc:
+      "imgs/1.jpg",
     imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
     href: '#',
   },
   {
     description: 'Animal Dental Care',
-    imageSrc: 'http://www.saluberry.com/wp-content/uploads/2021/11/png-transparent-dog-cat-oral-hygiene-dentistry-veterinarian-dog-animals-carnivoran-pet-removebg-preview-1-300x300.png',
+    imageSrc:
+      "imgs/1.jpg",
     imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
     href: '#',
   },
   {
     description: "Children's Dental care",
-    imageSrc: 'http://www.saluberry.com/wp-content/uploads/2021/11/Attachment_1636711916-300x300.jpg',
+    imageSrc:
+    "imgs/1.jpg",
     imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
     href: '#',
   },
   {
     description: "Detal Care and Prosthodonics",
-    imageSrc: 'http://www.saluberry.com/wp-content/uploads/2021/11/Attachment_1636711939-300x300.jpg',
+    imageSrc:
+      "imgs/1.jpg",
     imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
     href: '#',
   },
