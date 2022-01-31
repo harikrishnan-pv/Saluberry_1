@@ -4,7 +4,7 @@ import Slider from "react-slick";
 const products = [
   {
     id: 1,
-    name: "lorem ipsum",
+    name: "Virback Enzymatic Toothpaste kit",
     href: "#",
     imageSrc:
       "imgs/1.jpg",
@@ -14,40 +14,40 @@ const products = [
   },
   {
     id: 1,
-    name: "lorem ipsum",
+    name: "Bilistic pro series dental tooth polisher",
     href: "#",
     imageSrc:
       "imgs/2.jpg",
+    imageAlt: "",
+    price: "$35",
+    color: "Black",
+  },
+  {
+    id: 1,
+    name: "Montopack Bamboo Wooden Toothpick",
+    href: "#",
+    imageSrc:
+    "imgs/3.jpg",
     imageAlt: "Front of men's lorem ipsum in black.",
     price: "$35",
     color: "Black",
   },
   {
     id: 1,
-    name: "lorem ipsum",
+    name: "Sonic Toothbrush",
     href: "#",
     imageSrc:
-    "imgs/2.jpg",
+    "imgs/4.jpg",
     imageAlt: "Front of men's lorem ipsum in black.",
     price: "$35",
     color: "Black",
   },
   {
     id: 1,
-    name: "lorem ipsum",
+    name: "Dental Care Prosthodonics",
     href: "#",
     imageSrc:
-    "imgs/1.jpg",
-    imageAlt: "Front of men's lorem ipsum in black.",
-    price: "$35",
-    color: "Black",
-  },
-  {
-    id: 1,
-    name: "lorem ipsum",
-    href: "#",
-    imageSrc:
-    "imgs/2.jpg",
+    "imgs/5.jpg",
     imageAlt: "Front of men's lorem ipsum in black.",
     price: "$35",
     color: "Black",
@@ -55,30 +55,30 @@ const products = [
 
   {
     id: 1,
-    name: "lorem ipsum",
+    name: "Over the counter whitening",
     href: "#",
     imageSrc:
-      "imgs/1.jpg",
+      "imgs/6.jpeg",
     imageAlt: "Front of men's lorem ipsum in black.",
     price: "$35",
     color: "Black",
   },
   {
     id: 1,
-    name: "lorem ipsum",
+    name: "Hello Antiplaque",
     href: "#",
     imageSrc:
-    "imgs/2.jpg",
+    "imgs/7.jpg",
     imageAlt: "Front of men's lorem ipsum in black.",
     price: "$35",
     color: "Black",
   },
   {
     id: 1,
-    name: "lorem ipsum",
+    name: "Dental Implants",
     href: "#",
     imageSrc:
-    "imgs/1.jpg",
+    "imgs/8.jpg",
     imageAlt: "Front of men's lorem ipsum in black.",
     price: "$35",
     color: "Black",
@@ -89,28 +89,28 @@ const categories = [
   {
     description: 'Accessories',
     imageSrc:
-      "imgs/1.jpg",
+      "imgs/11.jpg",
     imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
     href: '#',
   },
   {
     description: 'Animal Dental Care',
     imageSrc:
-      "imgs/1.jpg",
+      "imgs/12.png",
     imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
     href: '#',
   },
   {
     description: "Children's Dental care",
     imageSrc:
-    "imgs/1.jpg",
+    "imgs/13.jpg",
     imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
     href: '#',
   },
   {
     description: "Detal Care and Prosthodonics",
     imageSrc:
-      "imgs/1.jpg",
+      "imgs/14.jpg",
     imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
     href: '#',
   },
