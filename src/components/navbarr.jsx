@@ -71,9 +71,9 @@ export default function Example() {
                   <div className="hidden lg:ml-20 sm:block md:mt-7 sm:ml-6">
                     <div className="flex space-x-4">
                       {navigation.map((item) => (
-                        <a
+                        <Link
                           key={item.name}
-                          href={item.href}
+                          to={item.href}
                           className={classNames(
                             item.current
                               ? "bg-pink-900 text-white"
@@ -83,9 +83,9 @@ export default function Example() {
                           aria-current={item.current ? "page" : undefined}
                         >
                           {item.name}
-                        </a>
+                        </Link>
                       ))}
-                      <div class="dropdown relative">
+                      <div tos="dropdown relative">
       <Link
         class="
           dropdown-toggle
