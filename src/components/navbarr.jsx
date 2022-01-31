@@ -6,7 +6,6 @@ import { Fragment, useState } from "react";
 const navigation = [
   { name: "Home", href: "/", current: true },
   { name: "Shop", href: "/best_selling", current: false },
-  { name: "Categories", href: "/most_popular", current: false },
   { name: "Featured Products", href: "/recent_arrival", current: false },
 ];
 
@@ -91,7 +90,7 @@ export default function Example() {
           dropdown-toggle
           px-6
           py-2.5
-          bg-blue-600
+          bg-pink-600
           text-white
           font-medium
           text-xs
@@ -99,8 +98,8 @@ export default function Example() {
           uppercase
           rounded
           shadow-md
-          hover:bg-blue-700 hover:shadow-lg
-          focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0
+          hover:bg-pink-700 hover:shadow-lg
+          focus:bg-pink-700 focus:shadow-lg focus:outline-none focus:ring-0
           active:bg-blue-800 active:shadow-lg active:text-white
           transition
           duration-150
@@ -115,7 +114,7 @@ export default function Example() {
         data-bs-toggle="dropdown"
         aria-expanded="false"
       >
-        Dropdown link
+        Categories
         <svg
           aria-hidden="true"
           focusable="false"
@@ -171,7 +170,26 @@ export default function Example() {
               hover:bg-gray-100
             "
             href="#"
-            >Action</a
+            >Accessories
+            </a>
+        </li>
+        <li>
+          <a
+            class="
+              dropdown-item
+              text-sm
+              py-2
+              px-4
+              font-normal
+              block
+              w-full
+              whitespace-nowrap
+              bg-transparent
+              text-gray-700
+              hover:bg-gray-100
+            "
+            href="#"
+            >Animal Dental Care</a
           >
         </li>
         <li>
@@ -190,26 +208,7 @@ export default function Example() {
               hover:bg-gray-100
             "
             href="#"
-            >Another action</a
-          >
-        </li>
-        <li>
-          <a
-            class="
-              dropdown-item
-              text-sm
-              py-2
-              px-4
-              font-normal
-              block
-              w-full
-              whitespace-nowrap
-              bg-transparent
-              text-gray-700
-              hover:bg-gray-100
-            "
-            href="#"
-            >Something else here</a
+            >Children Dental Care</a
           >
         </li>
       </ul>
