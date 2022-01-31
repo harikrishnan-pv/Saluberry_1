@@ -2,6 +2,7 @@
 import { Dialog, Disclosure, Menu, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { Fragment, useState } from "react";
+import { Link } from "react-router-dom";
 
 const navigation = [
   { name: "Home", href: "/", current: true },
@@ -85,7 +86,7 @@ export default function Example() {
                         </a>
                       ))}
                       <div class="dropdown relative">
-      <a
+      <Link
         class="
           dropdown-toggle
           px-6
@@ -108,7 +109,6 @@ export default function Example() {
           items-center
           whitespace-nowrap
         "
-        href="#"
         type="button"
         id="dropdownMenuButton2"
         data-bs-toggle="dropdown"
@@ -130,7 +130,7 @@ export default function Example() {
             d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
           ></path>
         </svg>
-      </a>
+      </Link>
       <ul
         class="
           dropdown-menu
@@ -155,7 +155,7 @@ export default function Example() {
         aria-labelledby="dropdownMenuButton2"
       >
         <li>
-          <a
+          <Link
             class="
               dropdown-item
               text-sm
@@ -169,12 +169,11 @@ export default function Example() {
               text-gray-700
               hover:bg-gray-100
             "
-            href="#"
             >Accessories
-            </a>
+            </Link>
         </li>
         <li>
-          <a
+          <Link
             class="
               dropdown-item
               text-sm
@@ -188,12 +187,11 @@ export default function Example() {
               text-gray-700
               hover:bg-gray-100
             "
-            href="#"
-            >Animal Dental Care</a
+            >Animal Dental Care</Link
           >
         </li>
         <li>
-          <a
+          <Link
             class="
               dropdown-item
               text-sm
@@ -207,8 +205,7 @@ export default function Example() {
               text-gray-700
               hover:bg-gray-100
             "
-            href="#"
-            >Children Dental Care</a
+            >Children Dental Care</Link
           >
         </li>
       </ul>
