@@ -5,12 +5,10 @@ import { Fragment, useState } from "react";
 
 const navigation = [
   { name: "Home", href: "/", current: true },
-  { name: "Best Selling", href: "/best_selling", current: false },
-  { name: "Most Popular", href: "/most_popular", current: false },
-  { name: "Recent Arrivals", href: "/recent_arrival", current: false },
-  { name: "About", href: "/about", current: false },
+  { name: "Shop", href: "/best_selling", current: false },
+  { name: "Categories", href: "/most_popular", current: false },
+  { name: "Featured Products", href: "/recent_arrival", current: false },
 ];
-
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -87,28 +85,10 @@ export default function Example() {
                           {item.name}
                         </a>
                       ))}
-                       <label class="relative block">
-                    <span class="sr-only">Search</span>
-                    <span class="absolute inset-y-0 left-0 flex items-center pl-2">
-                      <svg
-                        class="h-5 w-5 fill-slate-300"
-                        viewBox="0 0 20 20"
-                      ></svg>
-                    </span>
-                    <input
-                      class="placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm"
-                      placeholder="Search..."
-                      type="text"
-                      name="search"
-                    />
-                  </label>
                     </div>
-                    
                   </div>
                 </div>
                 <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                 
-
                   {/* Profile dropdown */}
                   <Menu as="div" className="ml-3 relative">
                     <div>
@@ -238,9 +218,7 @@ export default function Example() {
 
                       <div className="mt-8">
                         <div className="flow-root">
-                          <ul
-                            className="-my-6 divide-y divide-gray-200"
-                          >
+                          <ul className="-my-6 divide-y divide-gray-200">
                             {products.map((product) => (
                               <li key={product.id} className="py-6 flex">
                                 <div className="flex-shrink-0 w-24 h-24 border border-gray-200 rounded-md overflow-hidden">
@@ -296,10 +274,7 @@ export default function Example() {
                         Shipping and taxes calculated at checkout.
                       </p>
                       <div className="mt-6">
-                        <p
-
-                          className="flex justify-center items-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-pink-600 hover:bg-pink-700"
-                        >
+                        <p className="flex justify-center items-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-pink-600 hover:bg-pink-700">
                           Checkout
                         </p>
                       </div>

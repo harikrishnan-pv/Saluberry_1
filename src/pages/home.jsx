@@ -4,96 +4,116 @@ import Slider from "react-slick";
 const products = [
   {
     id: 1,
-    name: "Basic Tee",
+    name: "lorem ipsum",
     href: "#",
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
+      "http://www.saluberry.com/wp-content/uploads/2021/11/Virbac-dental-kit-402x402-1-300x300.jpg",
+    imageAlt: "Front of men's lorem ipsum in black.",
     price: "$35",
     color: "Black",
   },
   {
     id: 1,
-    name: "Basic Tee",
+    name: "lorem ipsum",
     href: "#",
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
+      "http://www.saluberry.com/wp-content/uploads/2021/11/41SU4efKSWL-300x300.jpg",
+    imageAlt: "Front of men's lorem ipsum in black.",
     price: "$35",
     color: "Black",
   },
   {
     id: 1,
-    name: "Basic Tee",
+    name: "lorem ipsum",
     href: "#",
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
+      "http://www.saluberry.com/wp-content/uploads/2021/11/91zxolULbmL._AC_SL1500_-300x300.jpg",
+    imageAlt: "Front of men's lorem ipsum in black.",
     price: "$35",
     color: "Black",
   },
   {
     id: 1,
-    name: "Basic Tee",
+    name: "lorem ipsum",
     href: "#",
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
+      "http://www.saluberry.com/wp-content/uploads/2021/11/waterpik_water_flosser_and_sonic_tooth_brush_wp-861w_-300x300.jpg",
+    imageAlt: "Front of men's lorem ipsum in black.",
     price: "$35",
     color: "Black",
   },
   {
     id: 1,
-    name: "Basic Tee",
+    name: "lorem ipsum",
     href: "#",
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
+      "http://www.saluberry.com/wp-content/uploads/2021/11/dentalcare1-300x300.jpg",
+    imageAlt: "Front of men's lorem ipsum in black.",
     price: "$35",
     color: "Black",
   },
 
   {
     id: 1,
-    name: "Basic Tee",
+    name: "lorem ipsum",
     href: "#",
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
+      "http://www.saluberry.com/wp-content/uploads/2021/11/white-300x300.jpeg",
+    imageAlt: "Front of men's lorem ipsum in black.",
     price: "$35",
     color: "Black",
   },
   {
     id: 1,
-    name: "Basic Tee",
+    name: "lorem ipsum",
     href: "#",
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
+      "http://www.saluberry.com/wp-content/uploads/2021/11/hello11-300x300.jpg",
+    imageAlt: "Front of men's lorem ipsum in black.",
     price: "$35",
     color: "Black",
   },
   {
     id: 1,
-    name: "Basic Tee",
+    name: "lorem ipsum",
     href: "#",
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
-    price: "$35",
-    color: "Black",
-  },
-  {
-    id: 1,
-    name: "Basic Tee",
-    href: "#",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
+      "http://www.saluberry.com/wp-content/uploads/2021/11/dental-implant-cost-300x300.jpg",
+    imageAlt: "Front of men's lorem ipsum in black.",
     price: "$35",
     color: "Black",
   },
 ];
+
+const categories = [
+  {
+    description: 'Accessories',
+    imageSrc: 'http://www.saluberry.com/wp-content/uploads/2021/11/Attachment_1636711988-300x300.jpg',
+    imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
+    href: '#',
+  },
+  {
+    description: 'Animal Dental Care',
+    imageSrc: 'http://www.saluberry.com/wp-content/uploads/2021/11/png-transparent-dog-cat-oral-hygiene-dentistry-veterinarian-dog-animals-carnivoran-pet-removebg-preview-1-300x300.png',
+    imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
+    href: '#',
+  },
+  {
+    description: "Children's Dental care",
+    imageSrc: 'http://www.saluberry.com/wp-content/uploads/2021/11/Attachment_1636711916-300x300.jpg',
+    imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
+    href: '#',
+  },
+  {
+    description: "Detal Care and Prosthodonics",
+    imageSrc: 'http://www.saluberry.com/wp-content/uploads/2021/11/Attachment_1636711939-300x300.jpg',
+    imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
+    href: '#',
+  },
+
+]
+
+
 export default function Home() {
   const settings = {
     dots: true,
@@ -139,99 +159,117 @@ export default function Home() {
       <a href="/best_seller">
         <div className="bg-white">
           <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
-            <h2 className="text-2xl font-extrabold tracking-tight text-gray-900">
-              Best Seller
+            <h2 className="text-4xl mb-10 font-extrabold tracking-tight text-pink-700">
+              Most Loved Products
             </h2>
 
             <div>
-              <Slider {...settings} className="pt-10">
-                {products.map((product) => (
-                  <div key={product.id} className="group px-10 relative">
-                    <div className="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none">
-                      <img
-                        src={product.imageSrc}
-                        alt={product.imageAlt}
-                        className="w-full h-full object-center object-cover lg:w-full lg:h-full"
-                      />
-                    </div>
-                    <div className="mt-4 flex justify-between">
-                      <div>
-                        <h3 className="text-sm text-gray-700">
-                          <a href={product.href}>
-                            <span
-                              aria-hidden="true"
-                              className="absolute inset-0"
-                            />
-                            {product.name}
-                          </a>
-                        </h3>
-                        <p className="mt-1 text-sm text-gray-500">
-                          {product.color}
-                        </p>
-                      </div>
-                      <p className="text-sm font-medium text-gray-900">
-                        {product.price}
-                      </p>
-                    </div>
+            <div className="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+            {products.map((product) => (
+              <div key={product.id} className="group relative">
+                <div className="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none">
+                  <img
+                    src={product.imageSrc}
+                    alt={product.imageAlt}
+                    className="w-full h-full object-center object-cover lg:w-full lg:h-full"
+                  />
+                </div>
+                <div className="mt-4 flex justify-between">
+                  <div>
+                    <h3 className="text-sm text-gray-700">
+                      <a href={product.href}>
+                        <span aria-hidden="true" className="absolute inset-0" />
+                        {product.name}
+                      </a>
+                    </h3>
+                    <p className="mt-1 text-sm text-gray-500">
+                      {product.color}
+                    </p>
                   </div>
-                ))}
-              </Slider>
+                  <p className="text-sm font-medium text-gray-900">
+                    {product.price}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>{" "}
             </div>
           </div>
         </div>
       </a>
 
-      <a href="/most_popular">
-        <div className="bg-white">
-          <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
-            <h2 className="text-2xl font-extrabold tracking-tight text-gray-900">
-              Most Popular
-            </h2>
+      <div>
+      <div className="bg-gray-100">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none">
+          <h2 className="text-2xl font-extrabold text-gray-900">Categories</h2>
 
-            <div>
-              <Slider {...settings} className="pt-10">
-                {products.map((product) => (
-                  <div key={product.id} className="group px-10 relative">
-                    <div className="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none">
-                      <img
-                        src={product.imageSrc}
-                        alt={product.imageAlt}
-                        className="w-full h-full object-center object-cover lg:w-full lg:h-full"
-                      />
-                    </div>
-                    <div className="mt-4 flex justify-between">
-                      <div>
-                        <h3 className="text-sm text-gray-700">
-                          <a href={product.href}>
-                            <span
-                              aria-hidden="true"
-                              className="absolute inset-0"
-                            />
-                            {product.name}
-                          </a>
-                        </h3>
-                        <p className="mt-1 text-sm text-gray-500">
-                          {product.color}
-                        </p>
-                      </div>
-                      <p className="text-sm font-medium text-gray-900">
-                        {product.price}
-                      </p>
-                    </div>
-                  </div>
-                ))}
-              </Slider>
-            </div>
+          <div className="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6">
+            {categories.map((callout) => (
+              <div key={callout.name} className="group relative">
+                <div className="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
+                  <img
+                    src={callout.imageSrc}
+                    alt={callout.imageAlt}
+                    className="w-full h-full object-center object-cover"
+                  />
+                </div>
+                <h3 className="mt-6 text-sm text-gray-500">
+                  <a href={callout.href}>
+                    <span className="absolute inset-0" />
+                    {callout.name}
+                  </a>
+                </h3>
+                <p className="text-base font-semibold text-gray-900">{callout.description}</p>
+              </div>
+            ))}
           </div>
         </div>
-      </a>
+      </div>
+    </div>
+      </div>
+
       <a href="/recent_arrivals">
         <div className="bg-white">
           <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
             <h2 className="text-2xl font-extrabold tracking-tight text-gray-900">
-              Recent Arrival
+              Featured Products
             </h2>
 
+            <div>
+              <Slider {...settings} className="pt-10">
+                {products.map((product) => (
+                  <div key={product.id} className="group px-10 relative">
+                    <div className="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none">
+                      <img
+                        src={product.imageSrc}
+                        alt={product.imageAlt}
+                        className="w-full h-full object-center object-cover lg:w-full lg:h-full"
+                      />
+                    </div>
+                    <div className="mt-4 flex justify-between">
+                      <div>
+                        <h3 className="text-sm text-gray-700">
+                          <a href={product.href}>
+                            <span
+                              aria-hidden="true"
+                              className="absolute inset-0"
+                            />
+                            {product.name}
+                          </a>
+                        </h3>
+                        <p className="mt-1 text-sm text-gray-500">
+                          {product.color}
+                        </p>
+                      </div>
+                      <p className="text-sm font-medium text-gray-900">
+                        {product.price}
+                      </p>
+                    </div>
+                  </div>
+                ))}
+              </Slider>
+            </div>
             <div>
               <Slider {...settings} className="pt-10">
                 {products.map((product) => (
