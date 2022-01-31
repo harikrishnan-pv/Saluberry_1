@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 
 const navigation = [
   { name: "Home", href: "/", current: true },
-  { name: "Shop", href: "/best_selling", current: false },
-  { name: "Featured Products", href: "/recent_arrival", current: false },
+  { name: "Shop", href: "/shop", current: false },
+  { name: "Featured Products", href: "/featured", current: false },
 ];
 
 function classNames(...classes) {
@@ -68,7 +68,7 @@ export default function Example() {
                   <div className="flex-shrink-0 text-xl text-white flex items-center">
                     <img src="logo.png" alt="" />
                   </div>
-                  <div className="hidden sm:block md:mt-7 sm:ml-6">
+                  <div className="hidden lg:ml-20 sm:block md:mt-7 sm:ml-6">
                     <div className="flex space-x-4">
                       {navigation.map((item) => (
                         <a
@@ -147,7 +147,6 @@ export default function Example() {
           rounded-lg
           shadow-lg
           mt-1
-          hidden
           m-0
           bg-clip-padding
           border-none
@@ -233,14 +232,14 @@ export default function Example() {
                       <Menu.Items className="origin-top-right absolute right-0 mt-2  w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
                         <Menu.Item>
                           {({ active }) => (
-                            <p
+                            <Link to="/signin"
                               className={classNames(
                                 active ? "bg-gray-100" : "",
                                 "block px-4 py-2 text-sm text-gray-700"
                               )}
                             >
-                              Your Profile
-                            </p>
+                             Sign In
+                            </Link >
                           )}
                         </Menu.Item>
                         <Menu.Item>
