@@ -10,9 +10,6 @@ import {
   ViewGridIcon,
 } from "@heroicons/react/solid";
 
-
-
-
 const products = [
   {
     id: 1,
@@ -89,8 +86,6 @@ const products = [
   },
 ];
 
-
-
 const sortOptions = [
   { name: "Most Popular", href: "#", current: true },
   { name: "Best Rating", href: "#", current: false },
@@ -106,16 +101,27 @@ const subCategories = [
   { name: "Laptop Sleeves", href: "#" },
 ];
 const filters = [
- 
   {
     id: "category",
     name: "Category",
     options: [
       { value: "Accessories", label: "Accessoriess", checked: false },
-      { value: "Animal Dental Care", label: "Animal Dental Care", checked: false },
+      {
+        value: "Animal Dental Care",
+        label: "Animal Dental Care",
+        checked: false,
+      },
       { value: "Children Dental Care", label: "Travel", checked: true },
-      { value: "Dental care and Prosthodontis", label: "Dental care and Prosthodontis", checked: false },
-      { value: "accessories", label: "Dental floss and Toothpicks", checked: false },
+      {
+        value: "Dental care and Prosthodontis",
+        label: "Dental care and Prosthodontis",
+        checked: false,
+      },
+      {
+        value: "accessories",
+        label: "Dental floss and Toothpicks",
+        checked: false,
+      },
     ],
   },
 ];
@@ -415,6 +421,7 @@ export default function Shop() {
                             className="w-full h-full object-center object-cover lg:w-full lg:h-full"
                           />
                         </div>
+                        
                         <div className="mt-4 flex justify-between">
                           <div>
                             <h3 className="text-sm text-gray-700">
@@ -433,6 +440,36 @@ export default function Shop() {
                           <p className="text-sm font-medium text-gray-900">
                             {product.price}
                           </p>
+                        </div>
+                        <div className="w-full  flex  opacity-0 group-hover:opacity-100 Z-4 align-bottom justify-center h-5/6  bottom-0 object-center object-cover lg:w-full lg:h-full ">
+                          <svg
+                            className="w-8 mr-2  h-8"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth={2}
+                              d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                            />
+                          </svg>
+                          <svg
+                            className="w-8 h-8"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth={2}
+                              d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                            />
+                          </svg>
                         </div>
                       </div>
                     ))}
