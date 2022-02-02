@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="ab33c339-a290-46df-b273-a8a31c058d9b"
+   width="1104"
+   height="560.27"
+   data-name="Layer 1"
+   version="1.1"
+   viewBox="0 0 1104 560.27"
+   sodipodi:docname="ab1.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <defs
+     id="defs101">
+    <rect
+       x="258.51823"
+       y="311.49328"
+       width="566.83301"
+       height="120.78311"
+       id="rect934" />
+    <rect
+       x="285.00576"
+       y="220.3762"
+       width="503.26296"
+       height="62.510557"
+       id="rect928" />
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#33262a"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     id="namedview99"
+     showgrid="false"
+     inkscape:zoom="0.94384058"
+     inkscape:cx="613.56148"
+     inkscape:cy="298.17821"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="ab33c339-a290-46df-b273-a8a31c058d9b"
+     showguides="true"
+     inkscape:document-rotation="0" />
+  <metadata
+     id="metadata2">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>zoom_in</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <title
+     id="title4">zoom_in</title>
+  <rect
+     width="1104"
+     height="560"
+     fill="#dc5c01"
+     id="rect6"
+     x="0"
+     y="0"
+     style="fill:#ef7924;fill-opacity:1" />
+  <g
+     fill="#3f3d56"
+     id="g14"
+     style="fill:#4d4d4d">
+    <rect
+       x="1021.1"
+       y="484.74"
+       width="2"
+       height="74.411"
+       id="rect8"
+       style="fill:#4d4d4d" />
+    <circle
+       cx="1022.1"
+       cy="484.74"
+       r="10.523"
+       id="circle10"
+       style="fill:#4d4d4d" />
+    <path
+       transform="translate(-48 -169.86)"
+       d="m1070.1 700.47s-1.5033-32.332-32.32-28.574"
+       id="path12"
+       style="fill:#4d4d4d" />
+  </g>
+  <path
+     transform="translate(-48 -169.86)"
+     d="m107.41 693.73c6.0732 22.45 26.875 36.354 26.875 36.354s10.955-22.495 4.8822-44.945-26.875-36.354-26.875-36.354-10.955 22.495-4.8822 44.945z"
+     fill="#fff"
+     id="path16" />
+  <path
+     transform="translate(-48 -169.86)"
+     d="m116.33 688.91c16.665 16.223 18.7 41.16 18.7 41.16s-24.984-1.3641-41.648-17.587-18.7-41.16-18.7-41.16 24.984 1.3642 41.648 17.587z"
+     fill="#3f3d56"
+     id="path18"
+     style="fill:#4d4d4d" />
+  <polygon
+     points="442.23 0 0 303.64 0 234.46 341.53 0"
+     opacity=".1"
+     id="polygon20" />
+  <polygon
+     points="274.97 0 0 188.77 0 119.63 174.26 0"
+     opacity=".1"
+     id="polygon22" />
+  <polygon
+     points="93.46 0 0 64.16 0 0"
+     opacity=".1"
+     id="polygon24" />
+  <g
+     stroke-width=".54429"
+     id="g42">
+    <ellipse
+       cx="548.41"
+       cy="201.42"
+       rx="86.542"
+       ry="13.063"
+       opacity=".1"
+       id="ellipse26" />
+    <ellipse
+       cx="548.41"
+       cy="190.54"
+       rx="86.542"
+       ry="13.063"
+       opacity=".1"
+       id="ellipse28" />
+    <ellipse
+       cx="548.41"
+       cy="179.65"
+       rx="86.542"
+       ry="13.063"
+       opacity=".1"
+       id="ellipse30" />
+    <ellipse
+       cx="548.41"
+       cy="168.77"
+       rx="86.542"
+       ry="13.063"
+       opacity=".1"
+       id="ellipse32" />
+    <ellipse
+       cx="548.41"
+       cy="157.88"
+       rx="86.542"
+       ry="13.063"
+       opacity=".1"
+       id="ellipse34" />
+    <ellipse
+       cx="548.41"
+       cy="147"
+       rx="86.542"
+       ry="13.063"
+       opacity=".1"
+       id="ellipse36" />
+    <path
+       d="m578.72 107.01c-6.8998 25.506-30.533 41.302-30.533 41.302s-12.447-25.557-5.5468-51.062c6.8998-25.506 30.533-41.302 30.533-41.302s12.447 25.557 5.5468 51.062z"
+       fill="#fff"
+       id="path38" />
+    <path
+       d="m515.96 107.01c6.8998 25.506 30.533 41.302 30.533 41.302s12.447-25.557 5.5468-51.062c-6.8998-25.506-30.533-41.302-30.533-41.302s-12.447 25.557-5.5468 51.062z"
+       fill="#fff"
+       id="path40" />
+  </g>
+  <g
+     fill="#3f3d56"
+     id="g50">
+    <path
+       d="m526.09 101.53c18.933 18.431 21.246 46.763 21.246 46.763s-28.384-1.5498-47.317-19.98c-18.933-18.431-21.246-46.763-21.246-46.763s28.384 1.5498 47.317 19.98z"
+       stroke-width=".54429"
+       id="path44"
+       style="fill:#4d4d4d" />
+    <path
+       d="m568.59 101.53c-18.933 18.431-21.246 46.763-21.246 46.763s28.384-1.5498 47.317-19.98 21.246-46.763 21.246-46.763-28.384 1.5498-47.317 19.98z"
+       stroke-width=".54429"
+       id="path46"
+       style="fill:#4d4d4d" />
+    <rect
+       x="261.47"
+       y="289.86"
+       width="561.83"
+       height="2"
+       id="rect48" />
+  </g>
+  <path
+     transform="translate(-48 -169.86)"
+     d="m688.17 730.14a12 12 0 1 1 12-12 12.014 12.014 0 0 1-12 12zm0-22a10 10 0 1 0 10 10 10.011 10.011 0 0 0-10-10z"
+     fill="#f0f0f0"
+     id="path52" />
+  <path
+     d="m261.94 256.11h-19.741v-19.741h19.741zm-18.223-1.5186h16.704v-16.704h-16.704z"
+     fill="#3f3d56"
+     id="path54" />
+  <path
+     d="m898.59 465.18-13.465-14.436 14.436-13.465 13.465 14.436zm-11.319-14.362 11.394 12.215 12.215-11.394-11.394-12.215z"
+     fill="#f0f0f0"
+     id="path56" />
+  <path
+     transform="translate(-48 -169.86)"
+     d="m1152 283.86v286a143 143 0 1 1 0-286z"
+     opacity=".1"
+     id="path58" />
+  <circle
+     cx="972"
+     cy="152"
+     r="110"
+     opacity=".1"
+     id="circle60" />
+  <circle
+     cx="875"
+     cy="88"
+     r="56"
+     opacity=".1"
+     id="circle62" />
+  <path
+     transform="translate(-48 -169.86)"
+     d="m923.31 286.94a29.116 29.116 0 1 1 29.116-29.116 29.149 29.149 0 0 1-29.116 29.116z"
+     fill="#3f3d56"
+     id="path64"
+     style="fill:#4d4d4d" />
+  <circle
+     cx="547.49"
+     cy="46.475"
+     r="5.4857"
+     fill="#f0f0f0"
+     stroke-width=".54429"
+     id="circle66" />
+  <path
+     d="m547.49 62.323a15.848 15.848 0 1 1 15.848-15.848 15.865 15.865 0 0 1-15.848 15.848zm0-30.476a14.629 14.629 0 1 0 14.629 14.629 14.645 14.645 0 0 0-14.629-14.629z"
+     fill="#2f2e41"
+     stroke-width=".54429"
+     id="path68" />
+  <text
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="16px"
+     style="line-height:1.25;white-space:pre;shape-inside:url(#rect44);"
+     xml:space="preserve"
+     id="text96"
+     transform="translate(-11.412,1.9457)" />
+  <text
+     xml:space="preserve"
+     id="text926"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:1.25;font-family:lora;-inkscape-font-specification:'lora Bold';white-space:pre;shape-inside:url(#rect928);fill:#ffffff;fill-opacity:1;stroke:none;"
+     transform="translate(134.55662,9.5355086)"><tspan
+       x="285.00586"
+       y="256.81445"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:lora;-inkscape-font-specification:'lora Bold';fill:#ffffff">Who are We?</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     id="text932"
+     style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect934);fill:#ffffff;fill-opacity:1;stroke:none;"
+     x="0"
+     y="0"><tspan
+       x="258.51758"
+       y="326.19964"><tspan
+         dx="0 0 0 4.2243729 0 0 0 4.2243729 0 4.2243729 0 0 0 0 0 0 0 0 0 0 4.2243805 0 0 0 0 0 4.2243652 0 4.2243805 0 0 0 0 0 0 0 0 0 0 4.2243958 0 0 0 0 0 0 0 0 0 0 0 4.2243652 0 0 0 0 0 0 0 4.2243347"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:justify;text-anchor:start;fill:#ffffff">We are a Marketing, Sales &amp; Technology solutioning company that </tspan></tspan><tspan
+       x="258.51758"
+       y="346.30785"><tspan
+         dx="0 0 0 0 0 0 1.4688301 0 0 0 0 0 0 0 0 0 1.4688416 0 0 0 0 0 0 0 1.4688263 0 0 0 0 0 1.4688263 0 0 0 0 0 0 0 0 1.468811 0 0 0 0 0 0 0 0 1.4688416 0 0 0 0 1.4688416 0 0 0 0 1.468811 0 1.4688416"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:justify;text-anchor:start;fill:#ffffff">helps companies achieve their business outcome, with over a decade </tspan></tspan><tspan
+       x="258.51758"
+       y="366.41607"><tspan
+         dx="0 0 0 0 0 0 0 0 0 0 0 4.7022018 0 0 0 0 0 0 0 4.7022095 0 0 0 0 0 0 4.7021942 0 0 0 0 0 0 0 4.7022095 0 0 4.7022095 0 0 0 0 0 0 0 0 4.702179 0 0 0 0 0 0 0 4.7022095"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:justify;text-anchor:start;fill:#ffffff">experience working across domains of digital, social, technological, </tspan></tspan><tspan
+       x="258.51758"
+       y="386.52428"><tspan
+         dx="0 0 0 0 1.9014206 0 0 0 0 0 1.9014206 0 0 0 0 0 0 0 0 0 0 1.901413 0 0 1.9014282 0 0 0 0 0 0 0 0 0 1.9014282 0 0 1.9013977 0 0 0 0 0 0 0 0 0 0 0 1.9014282 0 0 0 0 1.9014282 0 0 1.9014282 0 0 0 1.9013977 0 0 0 0 0 1.9013977"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:justify;text-anchor:start;fill:#ffffff">and sales strategies we expertise in solutioning most of the needs of </tspan></tspan><tspan
+       x="258.51758"
+       y="406.6325"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Montserrat;-inkscape-font-specification:Montserrat;text-align:justify;text-anchor:start;fill:#ffffff">any business today.</tspan></tspan></text>
+</svg>
