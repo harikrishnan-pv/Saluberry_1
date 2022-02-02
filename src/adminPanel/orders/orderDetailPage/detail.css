@@ -1,0 +1,30 @@
+.thumblin-img {
+  width: 150px;
+  height: auto;
+}
+.product-detail {
+  display: flex;
+  flex-direction: column;
+}
+.card-detail {
+  /* border: 1px solid #fff; */
+  font-weight: 300;
+  width: 100%;
+}
+.card-detail .card-body {
+
+  box-shadow: none;
+}
+
+.card-subtitle{
+  /* text-align: left ; */
+  color: #fff !important;
+}
+.card-2{
+  height: 100% !important;
+  background: #333 !important;
+  width: auto;
+  box-shadow: none !important;
+  /* border: 1px solid #fff; */
+
+}

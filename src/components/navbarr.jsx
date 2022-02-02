@@ -43,7 +43,7 @@ const products = [
   },
 ];
 
-export default function Example() {
+export default function Example({ categories }) {
   const [open, setOpen] = useState(false);
 
   return (
@@ -74,20 +74,15 @@ export default function Example() {
                         <Link
                           key={item.name}
                           to={item.href}
-                          className={classNames(
-                            item.current
-                              ? "bg-pink-900 text-white"
-                              : "text-gray-600 hover:bg-pink-700 hover:text-white",
-                            "px-3 py-2 rounded-md text-sm font-medium"
-                          )}
+                          className="text-gray-600 hover:bg-pink-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                           aria-current={item.current ? "page" : undefined}
                         >
                           {item.name}
                         </Link>
                       ))}
                       <div tos="dropdown relative">
-      <Link
-        class="
+                        <Link
+                          class="
           dropdown-toggle
           px-6
           py-2.5
@@ -101,7 +96,7 @@ export default function Example() {
           shadow-md
           hover:bg-pink-700 hover:shadow-lg
           focus:bg-pink-700 focus:shadow-lg focus:outline-none focus:ring-0
-          active:bg-blue-800 active:shadow-lg active:text-white
+          active:bg-pink-800 active:shadow-lg active:text-white
           transition
           duration-150
           ease-in-out
@@ -109,30 +104,30 @@ export default function Example() {
           items-center
           whitespace-nowrap
         "
-        type="button"
-        id="dropdownMenuButton2"
-        data-bs-toggle="dropdown"
-        aria-expanded="false"
-      >
-        Categories
-        <svg
-          aria-hidden="true"
-          focusable="false"
-          data-prefix="fas"
-          data-icon="caret-down"
-          class="w-2 ml-2"
-          role="img"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 320 512"
-        >
-          <path
-            fill="currentColor"
-            d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
-          ></path>
-        </svg>
-      </Link>
-      <ul
-        class="
+                          type="button"
+                          id="dropdownMenuButton2"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Categories
+                          <svg
+                            aria-hidden="true"
+                            focusable="false"
+                            data-prefix="fas"
+                            data-icon="caret-down"
+                            class="w-2 ml-2"
+                            role="img"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 320 512"
+                          >
+                            <path
+                              fill="currentColor"
+                              d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+                            ></path>
+                          </svg>
+                        </Link>
+                        <ul
+                          class="
           dropdown-menu
           min-w-max
           absolute
@@ -151,9 +146,30 @@ export default function Example() {
           bg-clip-padding
           border-none
         "
-        aria-labelledby="dropdownMenuButton2"
-      >
-        <li>
+                          aria-labelledby="dropdownMenuButton2"
+                        >
+                          {categories.map((category) => (
+                            <li key={category._id}>
+                              <Link
+                                class="
+               dropdown-item
+               text-sm
+               py-2
+               px-4
+               font-normal
+               block
+               w-full
+               whitespace-nowrap
+               bg-transparent
+               text-gray-700
+               hover:bg-gray-100
+             "
+                              >
+                                {category.name}
+                              </Link>
+                            </li>
+                          ))}
+                          {/* <li>
           <Link
             class="
               dropdown-item
@@ -206,15 +222,15 @@ export default function Example() {
             "
             >Children Dental Care</Link
           >
-        </li>
-      </ul>
-    </div>
+        </li> */}
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
                 <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                   {/* Profile dropdown */}
-                  <Menu as="div" className="ml-3 relative">
+                  <Menu as="div" className="ml-3  relative">
                     <div>
                       <Menu.Button className="bg-pink-700 flex text-white px-3 py-1 text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-pink-900 focus:ring-white">
                         Sign In
@@ -229,17 +245,18 @@ export default function Example() {
                       leaveFrom="transform opacity-100 scale-100"
                       leaveTo="transform opacity-0 scale-95"
                     >
-                      <Menu.Items className="origin-top-right absolute right-0 mt-2  w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
+                      <Menu.Items className="origin-top-right z-10 absolute right-0 mt-2  w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
                         <Menu.Item>
                           {({ active }) => (
-                            <Link to="/signin"
+                            <Link
+                              to="/signin"
                               className={classNames(
                                 active ? "bg-gray-100" : "",
                                 "block px-4 py-2 text-sm text-gray-700"
                               )}
                             >
-                             Sign In
-                            </Link >
+                              Sign In
+                            </Link>
                           )}
                         </Menu.Item>
                         <Menu.Item>
@@ -256,14 +273,16 @@ export default function Example() {
                         </Menu.Item>
                         <Menu.Item>
                           {({ active }) => (
-                            <p
-                              className={classNames(
-                                active ? "bg-gray-100" : "",
-                                "block px-4 py-2 text-sm text-gray-700"
-                              )}
-                            >
-                              Sign out
-                            </p>
+                            <Link to="/signup">
+                              <p
+                                className={classNames(
+                                  active ? "bg-gray-100" : "",
+                                  "block px-4 py-2 text-sm text-gray-700"
+                                )}
+                              >
+                                Sign Up
+                              </p>
+                            </Link>
                           )}
                         </Menu.Item>
                       </Menu.Items>
@@ -397,11 +416,13 @@ export default function Example() {
                       <p className="mt-0.5 text-sm text-gray-500">
                         Shipping and taxes calculated at checkout.
                       </p>
-                      <div className="mt-6">
-                        <p className="flex justify-center items-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-pink-600 hover:bg-pink-700">
-                          Checkout
-                        </p>
-                      </div>
+                      <Link  onClick={() => setOpen(false)} to="/checkout">
+                        <div className="mt-6">
+                          <p className="flex justify-center items-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-pink-600 hover:bg-pink-700">
+                            Checkout
+                          </p>
+                        </div>
+                      </Link>
                       <div className="mt-6 flex justify-center text-sm text-center text-gray-500">
                         <p>
                           or{" "}

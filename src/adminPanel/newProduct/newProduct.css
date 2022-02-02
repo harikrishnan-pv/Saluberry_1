@@ -1,0 +1,38 @@
+
+.addProductItem {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+
+}
+.col-new {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.addProductItem > label {
+  color: gray;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.addProductItem > input {
+  /* padding: 10px; */
+}
+
+.addProductItem > select {
+  padding: 10px;
+}
+
+.btn-create{
+  padding: 5px 18px;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 17px;
+  /* font-family: "Outfit", sans-serif; */
+  background-color: pink;
+  outline: none;
+}
