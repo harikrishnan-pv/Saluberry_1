@@ -30,9 +30,10 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "dev": "nodemon server.js",
-    "start": "craco start",
-    "build": "craco build",
+    "dev": "react-scripts start",
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "heroku-postbuild": "npm run build",
     "test": "craco test",
     "eject": "react-scripts eject"
   },
